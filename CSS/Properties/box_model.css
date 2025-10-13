@@ -1,0 +1,18 @@
+#box{
+    height: 200px;
+    width: 200px;
+
+    border:10px solid blue;
+    
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+
+    margin: 50px;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+}

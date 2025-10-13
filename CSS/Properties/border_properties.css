@@ -1,0 +1,36 @@
+/* #box{
+    height: 500px;
+    width: 500px;
+
+
+    border-top: 20px dashed red;
+    border-bottom: 20px double purple;
+    border-left: 15px groove green;
+    border-right: 20px dotted blue;
+}
+#demo{
+    height: 400px;
+    width: 400px;
+
+    border-width: 10px;
+    border-style: dashed;
+    border-color: purple;  
+} */
+#box2{
+    height: 500px;
+    width: 500px;
+
+    background: url(./s.jpg) center no-repeat;
+    background-size: cover;
+
+    border: 5px solid red;
+    border-radius: 300px 40px 300px 40px;
+    /* border-radius: 60px 50px 30px; */
+    /* border-radius: 30px 40px;  */
+    /* border-radius: 90px; */
+ }
+ table{
+    /* border-spacing: 20px; */
+    border-collapse: collapse;
+
+ }

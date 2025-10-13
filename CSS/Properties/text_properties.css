@@ -1,0 +1,52 @@
+p{
+    color: purple;
+ /* It will specify te color of the text content
+ values:any color,black(d) */
+
+text-align:justify;
+/* It will specify the allignment of the content.
+values:left(d),center,right,justify,start,end */
+
+text-transform: capitalize;
+/* It will convet the text cases 
+values:none(d),uppercase,lowercase,capitalize */
+
+/*text-decoration
+text-decoration-line 
+text-decoration-style
+text-decoration-color */
+
+text-decoration-line:underline;
+ /* It will specify the type of line we want to apply to the content
+ values:none(d),underline,overline,line-through  */
+
+
+text-decoration-style:double;
+/* It will specify the style of the content 
+values: solid(d),dotted,dashed,double,wavy */
+
+
+text-decoration-color:rgb(197, 7, 7) ;
+/* It will specify the color of text-decortion-line
+values:any color,text color(d) */
+
+
+letter-spacing: 2px;
+
+word-spacing: 50px;
+
+line-height: 50px;
+ 
+text-indent: 100px;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+
+  /* ?text-shadow: x-axis,y-axis, blur ,color */
+  text-shadow: 2px 3px 3px purple;
+}
+
+
+

@@ -1,0 +1,40 @@
+section{
+    height: 500px;
+    width: 800px;
+    background-color: bisque;
+    border: solid;
+    margin: 50px auto;
+
+    position: relative;
+}
+section article{
+    height:300px ;
+    width: 180px;
+    border: solid;
+    background-color: chocolate;
+    display: inline-block;
+    margin: 80px 5px;
+
+    position: relative;
+}
+ section article div{
+    height: 150px;
+    width: 150px;
+    border: solid;
+    background-color: crimson;
+    margin:20px auto ;
+    position: relative;
+}
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}

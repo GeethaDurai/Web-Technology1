@@ -1,0 +1,26 @@
+section ~ p{
+    color: white;
+    background-color: aqua;
+}
+
+article + p{
+    color: aliceblue;
+    background-color:blue ;
+
+}
+
+    aside ~ p{
+    color: aliceblue;
+    background-color:rgb(145, 255, 0) ;
+}
+
+    section + p{
+    color: aliceblue;
+    background-color:rgb(255, 72, 0) ;
+}
+
+article p{
+    color: aliceblue;
+    background-color:rgb(255, 0, 255) ;
+    text-align: center;
+}

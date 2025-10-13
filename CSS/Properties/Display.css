@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    border: solid blue;
+
+    display: none;
+
+    display: block;
+
+    display: inline;
+
+    display: inline-block;
+
+}
+
+span{
+    height: 50px;
+    border: solid magenta;
+
+    display: inline-block;
+}

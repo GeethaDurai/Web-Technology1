@@ -1,0 +1,53 @@
+/* h1{
+    color: white;
+    background-color: purple;
+}
+p{
+    color: white;
+    background-color: black;
+}
+b{
+    color: white;
+    background-color: black;
+}
+i{
+    color: white;
+    background-color: black;
+}
+u{
+    color: white;
+    background-color: black;
+}
+div{
+    color: white;
+    background-color: black;
+}
+nav{
+    color: white;
+     background-color: black;  
+} */
+#one{
+    background-color: brown;
+    text-align: center;
+}
+#two{
+    color: aliceblue;
+    background-color: brown;
+    text-align: center;
+}
+#three{
+    color: white;
+     background-color: brown;
+    text-align: center;
+}
+#four{
+    background-color: brown;
+    text-align: center;
+}
+.demo{
+    background-color: blue;
+}
+.demo1{
+    background-color:chartreuse;
+    text-align: right;
+}

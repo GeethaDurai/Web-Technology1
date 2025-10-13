@@ -1,0 +1,15 @@
+table th{
+    background-color: rgb(111, 231, 201);
+    color: white;
+}
+table tr:nth-child(even) {
+    color: black;
+}
+table tr:nth-child(odd) {
+    color: rgb(111, 231, 201);
+    background-color: azure;
+}
+table tr:nth-child(odd) {
+    color: rgb(111, 231, 201);
+    background-color: azure;
+}

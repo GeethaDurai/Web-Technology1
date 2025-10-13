@@ -1,0 +1,93 @@
+/* p:hover{
+    color: white;
+    background-color: blue;
+}
+#box{
+    background-color: purple;
+    height: 150px;
+    width: 300px;
+}
+#box:hover{
+    background-color:gold;
+    height: 250px;
+    width: 400px;
+}
+section p:last-child{
+    color: white;
+    background-color: brown;
+}
+
+section p:first-child{
+    color: black;
+    background-color: aqua;
+}
+section p:nth-child(even){
+    color: white;
+    background-color: chocolate;
+}
+section p:nth-child(4){
+    color: white;
+    background-color:rgb(196, 39, 39);
+} */
+/* table tr:nth-child(even) td:nth-child(even){
+    background-color: black;}
+table tr:nth-child(even) td:nth-child(odd){
+    background-color: white;}
+table tr:nth-child(odd) td:nth-child(odd){
+    background-color: black;}
+table tr:nth-child(odd) td:nth-child(even){
+    background-color: white;} */
+/* 
+    input +p {
+        display: none;
+    }
+    input:checked + p{
+        display: block;
+    
+    }
+    input:focus{
+        color: red;
+    }
+    span{
+        height: 10px;
+        width: 300px;
+        border: solid rebeccapurple;
+    }
+    div{
+        height: 50px;
+        width: 300px;
+        border: solid rebeccapurple;
+    }
+    input:focus + b{
+        color: purple;
+    }
+    input:focus + b::after{
+        content: "Focused";
+    /* } 
+    /*
+      p::after{
+        content: "BE";
+        color: blue;
+     }
+     p::before{
+        content: "MISS";
+        color: blue;
+     } 
+     p::first-letter{
+        color: blue;
+     }
+      p::first-line{
+        color: blue;
+     }
+     */
+      p::selection{
+        color: purple;
+     }
+     ul ::marker{
+        color: teal;
+
+
+     }
+     
+     
+     

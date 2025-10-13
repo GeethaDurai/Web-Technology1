@@ -1,0 +1,72 @@
+section{
+    height: 500px;
+    width:800px;
+    background-color: rgb(184, 202, 218);
+    border: solid purple;
+
+    margin: 100px auto;
+}
+section div{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border: solid black;
+    color: white;
+
+    display: inline;
+    display: block;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+section div:nth-child(1){
+    background-color: blue;
+}
+section div:nth-child(2){
+    background-color: green;
+
+    /* position: static; */
+
+    /* position: relative;
+      top: 10px;
+    left: 10px;   */
+
+     /* position: absolute; */
+      /* top: 50px; */
+    /* left: 50px;  */
+    
+}
+section div:nth-child(3){
+    background-color:mediumvioletred;
+
+     position: absolute
+}
+section div:nth-child(4){
+    background-color: brown;
+
+}
+
+#helpbutton{
+    color: white;
+    background-color: purple;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+}
+nav{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+
+    position: sticky;
+    top: 0px;
+
+}
