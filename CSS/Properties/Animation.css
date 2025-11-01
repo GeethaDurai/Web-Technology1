@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box{
+    height: 300px;
+    height: 100vh;
+    width: 300px;
+    width: 100vw;
+    background-color: green;
+
+
+    animation-name: colorChange;
+
+    animation-duration: 1s;
+
+    /* animation-timing-function: ; */
+
+    animation-delay:0s ;
+
+    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+
+    
+}
+
+@keyframes colorChange {
+    0%{
+        background-color: aquamarine;
+    }
+    10%{
+        background-color: blue;
+    }
+     20%{
+        background-color: violet;
+    }
+     30%{
+        background-color: saddlebrown;
+    }
+     40%{
+        background-color: teal;
+    }
+     50%{
+        background-color: yellow;
+    }
+     60%{
+        background-color: purple;
+    }
+     70%{
+        background-color: aqua;
+    }
+     80%{
+        background-color: red;
+    }
+     90%{
+        background-color: chocolate;
+    }
+     100%{
+        background-color: magenta;
+    }
+    
+    
+}
+
+
+#box2{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    transform: translate(0px,0px);
+    /* background: url(); */
+    /* background-size: ; */
+
+    animation-name: positionChange;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: ;
+    animation-iteration-count: 4;
+    animation-direction:reverse ;
+}
+
+@keyframes positionChange {
+    0%{
+      transform: translate(0px,0px);
+    }
+    25%{
+        transform: translate(760px,0px);
+        
+    }
+    50%
+    {
+        transform: translate(760px,280px);
+        
+    }
+    75%
+    {
+        transform: translate(0px,280px);
+        
+    }
+    100%
+    {
+        transform: translate(0px,0px);
+        
+    }
+    
+}

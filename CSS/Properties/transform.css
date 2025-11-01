@@ -1,0 +1,16 @@
+#box{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    margin: 100px auto;
+    background:url(./spiral.png) no-repeat;
+    background-size: cover;
+
+    transition-property: transfom;
+
+    transition-duration:50s ;
+
+    transition-delay: 0s;
+
+    
+}
